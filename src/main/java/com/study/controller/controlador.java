@@ -25,6 +25,8 @@ public class controlador {
         listadoEstudiantes.add(new estudiante(143, "Jose Muñoz", true));
         listadoEstudiantes.add(new estudiante(223, "Mariana Dominguez", false));
         listadoEstudiantes.add(new estudiante(435,"Jose Gonzalez",true));
+        listadoEstudiantes.add(new estudiante(568,"Jose David Montenegro",true));
+        listadoEstudiantes.add(new estudiante(888,"Martin Gonzalez",true));
     }
     // el value sin nada es un get con valores es un post ejemplo localhost:8080/consultaEstudiantes post crear, put editar, get recuperar, delete borrar 
     @GetMapping(value = "consultaEstudiantes", produces = MediaType.APPLICATION_JSON_VALUE) //junto con los parametros “value” y “produces”. En value ponemos el nombre que nos va a permitir consumir el servicio, en este caso “/consultaEstudiantes, y el formato de la respuesta a entregar con “produces”, en este caso “MediaType.APPLICATION_JSON_VALUE”.
