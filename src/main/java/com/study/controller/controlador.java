@@ -8,11 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.study.model.estudiante;
 
 import jakarta.annotation.PostConstruct;
-
-import org.apache.catalina.valves.rewrite.RewriteRule;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
